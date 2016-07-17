@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TTGNotificationGuard'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Auto remove the observer from NSNotificationCenter after the oberser dealloc.'
 
   s.description      = <<-DESC
