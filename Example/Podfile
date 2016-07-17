@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TTGNotificationGuard_Example' do
+  pod 'TTGNotificationGuard', :path => '../'
+
+  target 'TTGNotificationGuard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
