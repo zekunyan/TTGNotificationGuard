@@ -20,9 +20,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		84FF5B349E14FC898BE01DB4 /* Pods_TTGNotificationGuard_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48003F5283DDE5191253A060 /* Pods_TTGNotificationGuard_Tests.framework */; };
+		73724C0104A5E1157875D7FA /* libPods-TTGNotificationGuard_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43884C6E4136A6037903297C /* libPods-TTGNotificationGuard_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		AFCCD6191187B2D22DF2EFDB /* Pods_TTGNotificationGuard_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF34A0CA99AC827508E0288 /* Pods_TTGNotificationGuard_Example.framework */; };
+		B63516D741C0FD085D060900 /* libPods-TTGNotificationGuard_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 256C44EA8E9D94552B98EB07 /* libPods-TTGNotificationGuard_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +37,10 @@
 
 /* Begin PBXFileReference section */
 		0A9762E8B7AE6EC589A4E73A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		1DF34A0CA99AC827508E0288 /* Pods_TTGNotificationGuard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTGNotificationGuard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E895514BF719C882DF9336F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		256C44EA8E9D94552B98EB07 /* libPods-TTGNotificationGuard_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTGNotificationGuard_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D239C0111E40E5ED62D1A1 /* Pods-TTGNotificationGuard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTGNotificationGuard_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTGNotificationGuard_Example/Pods-TTGNotificationGuard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		48003F5283DDE5191253A060 /* Pods_TTGNotificationGuard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTGNotificationGuard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43884C6E4136A6037903297C /* libPods-TTGNotificationGuard_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTGNotificationGuard_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F30BF57169AC0A9E42FD4D1 /* Pods-TTGNotificationGuard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTGNotificationGuard_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTGNotificationGuard_Example/Pods-TTGNotificationGuard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TTGNotificationGuard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTGNotificationGuard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				AFCCD6191187B2D22DF2EFDB /* Pods_TTGNotificationGuard_Example.framework in Frameworks */,
+				73724C0104A5E1157875D7FA /* libPods-TTGNotificationGuard_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				84FF5B349E14FC898BE01DB4 /* Pods_TTGNotificationGuard_Tests.framework in Frameworks */,
+				B63516D741C0FD085D060900 /* libPods-TTGNotificationGuard_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				1DF34A0CA99AC827508E0288 /* Pods_TTGNotificationGuard_Example.framework */,
-				48003F5283DDE5191253A060 /* Pods_TTGNotificationGuard_Tests.framework */,
+				43884C6E4136A6037903297C /* libPods-TTGNotificationGuard_Example.a */,
+				256C44EA8E9D94552B98EB07 /* libPods-TTGNotificationGuard_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -516,6 +516,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TTGNotificationGuard/TTGNotificationGuard-Prefix.pch";
 				INFOPLIST_FILE = "TTGNotificationGuard/TTGNotificationGuard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,6 +533,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TTGNotificationGuard/TTGNotificationGuard-Prefix.pch";
 				INFOPLIST_FILE = "TTGNotificationGuard/TTGNotificationGuard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

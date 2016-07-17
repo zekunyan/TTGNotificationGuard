@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C7527AC6C12E35F354712588BA5714 /* NSNotificationCenter+TTGNotificationGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 329E343451496CD9CE58033C500298D1 /* NSNotificationCenter+TTGNotificationGuard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F32858C0A78E097BD806F49A5D52848 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCA801DED542D9C48BB9496E41CB2A7 /* Foundation.framework */; };
+		355421B12F7DA6D9B3514DF4D1650716 /* Pods-TTGNotificationGuard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B15F9524E6AF02FB16CBFA33AE68DBE /* Pods-TTGNotificationGuard_Example-dummy.m */; };
+		4DE445FD01623948DE2537FBBE5AD204 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED1411C548899C28A948508769F77B7 /* UIKit.framework */; };
+		4E3A8A7B74DE353853EF56C2AB9278AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCA801DED542D9C48BB9496E41CB2A7 /* Foundation.framework */; };
+		6930F6453F400AEC470C9E1E8EAF9F1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCA801DED542D9C48BB9496E41CB2A7 /* Foundation.framework */; };
+		6D9C0E4135F27DAE3EF754905F97C746 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09380E532BB1971AAE638734E57574F9 /* CoreFoundation.framework */; };
+		7230DE522923ECE64520A15EBED3CCF6 /* NSObject+TTGDeallocTaskHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1C30AE062A49A89A86CBEA49B0A350 /* NSObject+TTGDeallocTaskHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78E048C08382010380ADB898E59865FA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09380E532BB1971AAE638734E57574F9 /* CoreFoundation.framework */; };
+		821650048E84FB84EDD3B7AC0F2D1A50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCA801DED542D9C48BB9496E41CB2A7 /* Foundation.framework */; };
+		9147753126E0F2CF7EFF6A34B6247B42 /* NSObject+TTGDeallocTaskHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA11CD19ADFFE2E9AFA8A05C9B1093A /* NSObject+TTGDeallocTaskHelper.m */; };
+		B3FE31C46419F080954ACBA92A770CAC /* TTGNotificationGuard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4062C5137D0700C5E674B50A30241 /* TTGNotificationGuard-dummy.m */; };
+		B809D46971A9F962301FC40A7317A901 /* NSNotificationCenter+TTGNotificationGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F297065E7678161DD6421F9C6E4F21 /* NSNotificationCenter+TTGNotificationGuard.m */; };
+		D02F052B00464B7CA87A88ED60F39813 /* Pods-TTGNotificationGuard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A15EA55E2339F958492755300299E6 /* Pods-TTGNotificationGuard_Tests-dummy.m */; };
+		E5189E110CBF2B630D2DF251CA5F4C02 /* TTGDeallocTaskHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1067FC318A0A5D680C9A30B993A21D2E /* TTGDeallocTaskHelper-dummy.m */; };
+		F784B5786B848BDA3954E2F59CB24402 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED1411C548899C28A948508769F77B7 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54868D999E84983029CBA7EF8F3F45C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1F71BA9763A469C2CEADE28A1E7CC04;
+			remoteInfo = TTGDeallocTaskHelper;
+		};
+		DEF54353C206E976714591BB15E8D364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1F71BA9763A469C2CEADE28A1E7CC04;
+			remoteInfo = TTGDeallocTaskHelper;
+		};
+		E00B1547BC5E488B9DB814223A439F25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1F461C2036C0F79269A64233A559EAD;
+			remoteInfo = TTGNotificationGuard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09380E532BB1971AAE638734E57574F9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		0CA8EA97BBF0B0664759964BC6C04CEB /* libPods-TTGNotificationGuard_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTGNotificationGuard_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CDEA852B45BD98F917642A86A699552 /* TTGDeallocTaskHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTGDeallocTaskHelper-prefix.pch"; sourceTree = "<group>"; };
+		1067FC318A0A5D680C9A30B993A21D2E /* TTGDeallocTaskHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTGDeallocTaskHelper-dummy.m"; sourceTree = "<group>"; };
+		1ED1411C548899C28A948508769F77B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		238C5C6BC8CD3428EAC1B1F300B169D1 /* Pods-TTGNotificationGuard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTGNotificationGuard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2DB6D5C814A7DE1CED85EC9FFD85FE94 /* TTGDeallocTaskHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTGDeallocTaskHelper.xcconfig; sourceTree = "<group>"; };
+		329E343451496CD9CE58033C500298D1 /* NSNotificationCenter+TTGNotificationGuard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+TTGNotificationGuard.h"; sourceTree = "<group>"; };
+		389E0AE6431380291F6ACEBD6B0CE4C7 /* Pods-TTGNotificationGuard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTGNotificationGuard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4236496F6CA626AF649F8A9639B98D4C /* Pods-TTGNotificationGuard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTGNotificationGuard_Example-resources.sh"; sourceTree = "<group>"; };
+		462DA113AF07A1726163F2B269DC4642 /* Pods-TTGNotificationGuard_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTGNotificationGuard_Tests-resources.sh"; sourceTree = "<group>"; };
+		4971ED12B633D550F51D88B908213E6C /* Pods-TTGNotificationGuard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTGNotificationGuard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		61482E24A2C321AB70C8BBA20ADAD668 /* Pods-TTGNotificationGuard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTGNotificationGuard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6AA11CD19ADFFE2E9AFA8A05C9B1093A /* NSObject+TTGDeallocTaskHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+TTGDeallocTaskHelper.m"; path = "TTGDeallocTaskHelper/Classes/NSObject+TTGDeallocTaskHelper.m"; sourceTree = "<group>"; };
+		80A15EA55E2339F958492755300299E6 /* Pods-TTGNotificationGuard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTGNotificationGuard_Tests-dummy.m"; sourceTree = "<group>"; };
+		82B39ACD0E887D5817FE21F953DF8B60 /* Pods-TTGNotificationGuard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTGNotificationGuard_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8B15F9524E6AF02FB16CBFA33AE68DBE /* Pods-TTGNotificationGuard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTGNotificationGuard_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99BA37C1455FE58555327236795684FA /* Pods-TTGNotificationGuard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTGNotificationGuard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE1C30AE062A49A89A86CBEA49B0A350 /* NSObject+TTGDeallocTaskHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+TTGDeallocTaskHelper.h"; path = "TTGDeallocTaskHelper/Classes/NSObject+TTGDeallocTaskHelper.h"; sourceTree = "<group>"; };
+		C1D4062C5137D0700C5E674B50A30241 /* TTGNotificationGuard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTGNotificationGuard-dummy.m"; sourceTree = "<group>"; };
+		C3C97AC0F2AEBF6218BB9D5A646D0221 /* libTTGDeallocTaskHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTTGDeallocTaskHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA90E8B8235644492FBE23377D3F7E04 /* TTGNotificationGuard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTGNotificationGuard-prefix.pch"; sourceTree = "<group>"; };
+		CE00500E5507E572C73624D9CE317213 /* TTGNotificationGuard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTGNotificationGuard.xcconfig; sourceTree = "<group>"; };
+		CF470B456F449F365C5A0B4E7F6483EA /* Pods-TTGNotificationGuard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTGNotificationGuard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8136850AA48CFB4528CA3F72573B8C7 /* Pods-TTGNotificationGuard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTGNotificationGuard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD091DC5D4A850C3EE4B711092AC3C51 /* Pods-TTGNotificationGuard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTGNotificationGuard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EBCA801DED542D9C48BB9496E41CB2A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F15812F51EA1EA79380B3170AA4507DA /* Pods-TTGNotificationGuard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTGNotificationGuard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4CF2FD20AFD913BC05DFA0A7B1ECA8B /* libPods-TTGNotificationGuard_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTGNotificationGuard_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F297065E7678161DD6421F9C6E4F21 /* NSNotificationCenter+TTGNotificationGuard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+TTGNotificationGuard.m"; sourceTree = "<group>"; };
+		FACECD7D719BBACB34A7A4BEAEA8C4F5 /* libTTGNotificationGuard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTTGNotificationGuard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D2570A2B0F21141F1FB6071FC39D5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9C0E4135F27DAE3EF754905F97C746 /* CoreFoundation.framework in Frameworks */,
+				4E3A8A7B74DE353853EF56C2AB9278AD /* Foundation.framework in Frameworks */,
+				4DE445FD01623948DE2537FBBE5AD204 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA092D8B26F3A47FFCE4933C3260224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E048C08382010380ADB898E59865FA /* CoreFoundation.framework in Frameworks */,
+				6930F6453F400AEC470C9E1E8EAF9F1A /* Foundation.framework in Frameworks */,
+				F784B5786B848BDA3954E2F59CB24402 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BC4DF52B233F34BE7D14EEB0308A130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821650048E84FB84EDD3B7AC0F2D1A50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77AA790D6F3C5800053EEBAE4F8F1C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F32858C0A78E097BD806F49A5D52848 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CF2ECFE8A13B20E222CBEAE097B43BC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D8F3C209DD72C75C6EF7D6E24342ED4 /* TTGNotificationGuard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1E7B662015F43EBB0D0519AAC5A7C26 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22D3349A903033D7D515746357B4EBAA /* Pods-TTGNotificationGuard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				99BA37C1455FE58555327236795684FA /* Pods-TTGNotificationGuard_Tests-acknowledgements.markdown */,
+				389E0AE6431380291F6ACEBD6B0CE4C7 /* Pods-TTGNotificationGuard_Tests-acknowledgements.plist */,
+				80A15EA55E2339F958492755300299E6 /* Pods-TTGNotificationGuard_Tests-dummy.m */,
+				82B39ACD0E887D5817FE21F953DF8B60 /* Pods-TTGNotificationGuard_Tests-frameworks.sh */,
+				462DA113AF07A1726163F2B269DC4642 /* Pods-TTGNotificationGuard_Tests-resources.sh */,
+				D8136850AA48CFB4528CA3F72573B8C7 /* Pods-TTGNotificationGuard_Tests.debug.xcconfig */,
+				238C5C6BC8CD3428EAC1B1F300B169D1 /* Pods-TTGNotificationGuard_Tests.release.xcconfig */,
+			);
+			name = "Pods-TTGNotificationGuard_Tests";
+			path = "Target Support Files/Pods-TTGNotificationGuard_Tests";
+			sourceTree = "<group>";
+		};
+		4A8724B4E3DA025D0C291A26CD7A3524 /* TTGDeallocTaskHelper */ = {
+			isa = PBXGroup;
+			children = (
+				BE1C30AE062A49A89A86CBEA49B0A350 /* NSObject+TTGDeallocTaskHelper.h */,
+				6AA11CD19ADFFE2E9AFA8A05C9B1093A /* NSObject+TTGDeallocTaskHelper.m */,
+				7D2EF140149347B4B03099DC2D1697D7 /* Support Files */,
+			);
+			path = TTGDeallocTaskHelper;
+			sourceTree = "<group>";
+		};
+		4D8F3C209DD72C75C6EF7D6E24342ED4 /* TTGNotificationGuard */ = {
+			isa = PBXGroup;
+			children = (
+				EEF75B96EEDA7AB59752898F9AFB2D9C /* Support Files */,
+				CF6B171F87E8E9691EA752DD493A57D2 /* TTGNotificationGuard */,
+			);
+			name = TTGNotificationGuard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7D2EF140149347B4B03099DC2D1697D7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DB6D5C814A7DE1CED85EC9FFD85FE94 /* TTGDeallocTaskHelper.xcconfig */,
+				1067FC318A0A5D680C9A30B993A21D2E /* TTGDeallocTaskHelper-dummy.m */,
+				0CDEA852B45BD98F917642A86A699552 /* TTGDeallocTaskHelper-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TTGDeallocTaskHelper";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0CF2ECFE8A13B20E222CBEAE097B43BC /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				F25B1CE563425770FA432DAAE4C64D8F /* Pods */,
+				DE2D1B93F8C0878D444B852DFD0E6114 /* Products */,
+				7FD3ECD52E34A22722D56CA8A7C8DD54 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FD3ECD52E34A22722D56CA8A7C8DD54 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8503276F36C148E808F3F04F0BE6CDAC /* Pods-TTGNotificationGuard_Example */,
+				22D3349A903033D7D515746357B4EBAA /* Pods-TTGNotificationGuard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8503276F36C148E808F3F04F0BE6CDAC /* Pods-TTGNotificationGuard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CF470B456F449F365C5A0B4E7F6483EA /* Pods-TTGNotificationGuard_Example-acknowledgements.markdown */,
+				F15812F51EA1EA79380B3170AA4507DA /* Pods-TTGNotificationGuard_Example-acknowledgements.plist */,
+				8B15F9524E6AF02FB16CBFA33AE68DBE /* Pods-TTGNotificationGuard_Example-dummy.m */,
+				61482E24A2C321AB70C8BBA20ADAD668 /* Pods-TTGNotificationGuard_Example-frameworks.sh */,
+				4236496F6CA626AF649F8A9639B98D4C /* Pods-TTGNotificationGuard_Example-resources.sh */,
+				DD091DC5D4A850C3EE4B711092AC3C51 /* Pods-TTGNotificationGuard_Example.debug.xcconfig */,
+				4971ED12B633D550F51D88B908213E6C /* Pods-TTGNotificationGuard_Example.release.xcconfig */,
+			);
+			name = "Pods-TTGNotificationGuard_Example";
+			path = "Target Support Files/Pods-TTGNotificationGuard_Example";
+			sourceTree = "<group>";
+		};
+		B62747E41518A4F68277BF2050D427B5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				329E343451496CD9CE58033C500298D1 /* NSNotificationCenter+TTGNotificationGuard.h */,
+				F7F297065E7678161DD6421F9C6E4F21 /* NSNotificationCenter+TTGNotificationGuard.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CF6B171F87E8E9691EA752DD493A57D2 /* TTGNotificationGuard */ = {
+			isa = PBXGroup;
+			children = (
+				B62747E41518A4F68277BF2050D427B5 /* Classes */,
+			);
+			path = TTGNotificationGuard;
+			sourceTree = "<group>";
+		};
+		D1E7B662015F43EBB0D0519AAC5A7C26 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				09380E532BB1971AAE638734E57574F9 /* CoreFoundation.framework */,
+				EBCA801DED542D9C48BB9496E41CB2A7 /* Foundation.framework */,
+				1ED1411C548899C28A948508769F77B7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DE2D1B93F8C0878D444B852DFD0E6114 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CA8EA97BBF0B0664759964BC6C04CEB /* libPods-TTGNotificationGuard_Example.a */,
+				F4CF2FD20AFD913BC05DFA0A7B1ECA8B /* libPods-TTGNotificationGuard_Tests.a */,
+				C3C97AC0F2AEBF6218BB9D5A646D0221 /* libTTGDeallocTaskHelper.a */,
+				FACECD7D719BBACB34A7A4BEAEA8C4F5 /* libTTGNotificationGuard.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEF75B96EEDA7AB59752898F9AFB2D9C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE00500E5507E572C73624D9CE317213 /* TTGNotificationGuard.xcconfig */,
+				C1D4062C5137D0700C5E674B50A30241 /* TTGNotificationGuard-dummy.m */,
+				CA90E8B8235644492FBE23377D3F7E04 /* TTGNotificationGuard-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TTGNotificationGuard";
+			sourceTree = "<group>";
+		};
+		F25B1CE563425770FA432DAAE4C64D8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A8724B4E3DA025D0C291A26CD7A3524 /* TTGDeallocTaskHelper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		363A17A81E1E1FF781AA0AD0814B97DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7230DE522923ECE64520A15EBED3CCF6 /* NSObject+TTGDeallocTaskHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACDB9C8E6AAB1891699BDB8EDDD77C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C7527AC6C12E35F354712588BA5714 /* NSNotificationCenter+TTGNotificationGuard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B4F941423AD3A3226BD3CA052305914 /* Pods-TTGNotificationGuard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59DFC16053C65B1708C0DEFD65064681 /* Build configuration list for PBXNativeTarget "Pods-TTGNotificationGuard_Tests" */;
+			buildPhases = (
+				A360A248B37581E8A7D938C47E95FB25 /* Sources */,
+				2BC4DF52B233F34BE7D14EEB0308A130 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TTGNotificationGuard_Tests";
+			productName = "Pods-TTGNotificationGuard_Tests";
+			productReference = F4CF2FD20AFD913BC05DFA0A7B1ECA8B /* libPods-TTGNotificationGuard_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		830B9598A1BBC936592225C6ACC1F6F4 /* Pods-TTGNotificationGuard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A35DE759B7F6790A0C899CD23CE3ED08 /* Build configuration list for PBXNativeTarget "Pods-TTGNotificationGuard_Example" */;
+			buildPhases = (
+				838780935780A6836A546FCDFD9247C5 /* Sources */,
+				77AA790D6F3C5800053EEBAE4F8F1C35 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F11E970EA77A5575BC183969FF97DB97 /* PBXTargetDependency */,
+				D1A2E927DC6B35EE2364CBD44D77E89A /* PBXTargetDependency */,
+			);
+			name = "Pods-TTGNotificationGuard_Example";
+			productName = "Pods-TTGNotificationGuard_Example";
+			productReference = 0CA8EA97BBF0B0664759964BC6C04CEB /* libPods-TTGNotificationGuard_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B1F461C2036C0F79269A64233A559EAD /* TTGNotificationGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C928D10F734AD9FC3097DA7C54E2C6 /* Build configuration list for PBXNativeTarget "TTGNotificationGuard" */;
+			buildPhases = (
+				4D4C8542AC0B7B578E2AAF073D72800B /* Sources */,
+				2BA092D8B26F3A47FFCE4933C3260224 /* Frameworks */,
+				6ACDB9C8E6AAB1891699BDB8EDDD77C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB1C387C5C6A2AA3959A03DB8ADE3755 /* PBXTargetDependency */,
+			);
+			name = TTGNotificationGuard;
+			productName = TTGNotificationGuard;
+			productReference = FACECD7D719BBACB34A7A4BEAEA8C4F5 /* libTTGNotificationGuard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F1F71BA9763A469C2CEADE28A1E7CC04 /* TTGDeallocTaskHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7F36ACA7A086061806FAB180078A16 /* Build configuration list for PBXNativeTarget "TTGDeallocTaskHelper" */;
+			buildPhases = (
+				855A2B93E6C73CAE7F8213B11F4AB20F /* Sources */,
+				1D2570A2B0F21141F1FB6071FC39D5ED /* Frameworks */,
+				363A17A81E1E1FF781AA0AD0814B97DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTGDeallocTaskHelper;
+			productName = TTGDeallocTaskHelper;
+			productReference = C3C97AC0F2AEBF6218BB9D5A646D0221 /* libTTGDeallocTaskHelper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DE2D1B93F8C0878D444B852DFD0E6114 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				830B9598A1BBC936592225C6ACC1F6F4 /* Pods-TTGNotificationGuard_Example */,
+				1B4F941423AD3A3226BD3CA052305914 /* Pods-TTGNotificationGuard_Tests */,
+				F1F71BA9763A469C2CEADE28A1E7CC04 /* TTGDeallocTaskHelper */,
+				B1F461C2036C0F79269A64233A559EAD /* TTGNotificationGuard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D4C8542AC0B7B578E2AAF073D72800B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B809D46971A9F962301FC40A7317A901 /* NSNotificationCenter+TTGNotificationGuard.m in Sources */,
+				B3FE31C46419F080954ACBA92A770CAC /* TTGNotificationGuard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838780935780A6836A546FCDFD9247C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355421B12F7DA6D9B3514DF4D1650716 /* Pods-TTGNotificationGuard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855A2B93E6C73CAE7F8213B11F4AB20F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9147753126E0F2CF7EFF6A34B6247B42 /* NSObject+TTGDeallocTaskHelper.m in Sources */,
+				E5189E110CBF2B630D2DF251CA5F4C02 /* TTGDeallocTaskHelper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A360A248B37581E8A7D938C47E95FB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02F052B00464B7CA87A88ED60F39813 /* Pods-TTGNotificationGuard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1A2E927DC6B35EE2364CBD44D77E89A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTGNotificationGuard;
+			target = B1F461C2036C0F79269A64233A559EAD /* TTGNotificationGuard */;
+			targetProxy = E00B1547BC5E488B9DB814223A439F25 /* PBXContainerItemProxy */;
+		};
+		EB1C387C5C6A2AA3959A03DB8ADE3755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTGDeallocTaskHelper;
+			target = F1F71BA9763A469C2CEADE28A1E7CC04 /* TTGDeallocTaskHelper */;
+			targetProxy = DEF54353C206E976714591BB15E8D364 /* PBXContainerItemProxy */;
+		};
+		F11E970EA77A5575BC183969FF97DB97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTGDeallocTaskHelper;
+			target = F1F71BA9763A469C2CEADE28A1E7CC04 /* TTGDeallocTaskHelper */;
+			targetProxy = 54868D999E84983029CBA7EF8F3F45C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A8A501C201636DDAD79BFE648CFBB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8136850AA48CFB4528CA3F72573B8C7 /* Pods-TTGNotificationGuard_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0BA08F52AF5955529B52639CEB57DAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7107B52D33DDFB0057D055247EAE7B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A3DDD4D44407AB567B1F417CD4D24D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE00500E5507E572C73624D9CE317213 /* TTGNotificationGuard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTGNotificationGuard/TTGNotificationGuard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8331B8562352BEFA085A21C9DC3AA905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE00500E5507E572C73624D9CE317213 /* TTGNotificationGuard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTGNotificationGuard/TTGNotificationGuard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B001633D1613A191B9085B823A0A0C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238C5C6BC8CD3428EAC1B1F300B169D1 /* Pods-TTGNotificationGuard_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D159C389618793763391F8853FA96D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB6D5C814A7DE1CED85EC9FFD85FE94 /* TTGDeallocTaskHelper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTGDeallocTaskHelper/TTGDeallocTaskHelper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D9DE7A2E9790581AC508345EBCDCEB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB6D5C814A7DE1CED85EC9FFD85FE94 /* TTGDeallocTaskHelper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTGDeallocTaskHelper/TTGDeallocTaskHelper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EE35B6CEE6F07CAFC5229298817CC0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4971ED12B633D550F51D88B908213E6C /* Pods-TTGNotificationGuard_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F4250D7354F8BDD11FBE50BA9FA16A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD091DC5D4A850C3EE4B711092AC3C51 /* Pods-TTGNotificationGuard_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA08F52AF5955529B52639CEB57DAAC /* Debug */,
+				7107B52D33DDFB0057D055247EAE7B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59DFC16053C65B1708C0DEFD65064681 /* Build configuration list for PBXNativeTarget "Pods-TTGNotificationGuard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8A501C201636DDAD79BFE648CFBB47 /* Debug */,
+				B001633D1613A191B9085B823A0A0C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C928D10F734AD9FC3097DA7C54E2C6 /* Build configuration list for PBXNativeTarget "TTGNotificationGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8331B8562352BEFA085A21C9DC3AA905 /* Debug */,
+				7A3DDD4D44407AB567B1F417CD4D24D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A35DE759B7F6790A0C899CD23CE3ED08 /* Build configuration list for PBXNativeTarget "Pods-TTGNotificationGuard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4250D7354F8BDD11FBE50BA9FA16A8C /* Debug */,
+				EE35B6CEE6F07CAFC5229298817CC0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7F36ACA7A086061806FAB180078A16 /* Build configuration list for PBXNativeTarget "TTGDeallocTaskHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DE7A2E9790581AC508345EBCDCEB8F /* Debug */,
+				D159C389618793763391F8853FA96D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

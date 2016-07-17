@@ -1,0 +1,19 @@
+PODS:
+  - TTGDeallocTaskHelper (0.1.0)
+  - TTGNotificationGuard (0.1.0):
+    - TTGDeallocTaskHelper
+
+DEPENDENCIES:
+  - TTGNotificationGuard (from `../`)
+
+EXTERNAL SOURCES:
+  TTGNotificationGuard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TTGDeallocTaskHelper: d0428c9ddfb830d81fdb5d35e441c70318bb7bc5
+  TTGNotificationGuard: 93403254fe17f44c49329e17f129426d470ee697
+
+PODFILE CHECKSUM: fc960dc7e043c420bde8b6fd6553b7d2962785da
+
+COCOAPODS: 1.0.1

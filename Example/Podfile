@@ -1,4 +1,4 @@
-use_frameworks!
+platform :ios, ‘6.0’
 
 target 'TTGNotificationGuard_Example' do
   pod 'TTGNotificationGuard', :path => '../'

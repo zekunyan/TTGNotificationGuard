@@ -5,11 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/TTGNotificationGuard.svg?style=flat)](http://cocoapods.org/pods/TTGNotificationGuard)
 [![Platform](https://img.shields.io/cocoapods/p/TTGNotificationGuard.svg?style=flat)](http://cocoapods.org/pods/TTGNotificationGuard)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## What
+Auto remove the observer from NSNotificationCenter after the oberser dealloc, base on [TTGDeallocTaskHelper](https://github.com/zekunyan/TTGDeallocTaskHelper).
 
 ## Requirements
+iOS 6 and later.
 
 ## Installation
 
@@ -19,6 +19,24 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "TTGNotificationGuard"
 ```
+
+## Usage
+1. TTGNotificationGuard is default off, so you must turn it on first.
+```
+#import "NSNotificationCenter+TTGNotificationGuard.h"
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // Enable the TTGNotificationGuard
+    [NSNotificationCenter ttg_setTTGNotificationGuardEnable:YES];
+    return YES;
+}
+```
+
+2. No more need to do. Just start coding as usual :)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Author
 
